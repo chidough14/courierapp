@@ -59,7 +59,8 @@ url: https://agile-stream-92374.herokuapp.com
 1. On your rest client go to the url https://agile-stream-92374.herokuapp.com/api/user/register to register.You will supply a username, email and password in your form.
 2. Go to https://agile-stream-92374.herokuapp.com/api/login to login with your email and password. After login you will receive an access token which will be used for subsequent requests.
 3. To make subsequent requests to the endpoints on your rest client, go to the url. Then under headers section, you will add the authorization.
- eg Key: Authorization   
+
+eg  Key: Authorization   
     Value: Bearer "your_access_token"
 
 ## End Points
