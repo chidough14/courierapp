@@ -47,4 +47,4 @@ update courier item information -(put) http://localhost:8000/api/items/1
 
 show single courier item (get) http://localhost:8000/api/items/1
 
-delete courier item (delete) http://localhost:8000/items/api/1
+delete courier item (delete) http://localhost:8000/items/api/items/1
