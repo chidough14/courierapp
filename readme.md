@@ -23,11 +23,11 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 ## How to run
 
-cd into your project and run "composer install".
-Create database "mycourier" and update .env file with your username and password.
-After that run "php artisan migrate" to migrate database tables
-Then run "php artisan serve"
-Go to localhost:8000
+- cd into your project and run "composer install".
+- Create database "mycourier" and update .env file with your username and password.
+- After that run "php artisan migrate" to migrate database tables
+- Then run "php artisan serve"
+- Go to localhost:8000
 
 1. On your rest client go to the url http://localhost:8000/api/user/register to register.
 
