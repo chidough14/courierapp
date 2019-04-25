@@ -29,9 +29,9 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 - Then run "php artisan serve"
 - Go to localhost:8000
 
-1. On your rest client go to the url http://localhost:8000/api/user/register to register.
+1. On your rest client go to the url http://localhost:8000/api/user/register to register. You will supply a username, email and password in your form.
 
-2. Go to http://localhost:8000/api/login to login. After login you will receive an access token which will be used for subsequent requests.
+2. Go to http://localhost:8000/api/login to login with your email and password. After login you will receive an access token which will be used for subsequent requests.
 
 3. To make subsequent requests to the endpoints on your rest client, go to the url. Then under headers section, you will add the authorization.
 
@@ -50,3 +50,22 @@ update courier item information -(put) http://localhost:8000/api/items/1
 show single courier item (get) http://localhost:8000/api/items/1
 
 delete courier item (delete) http://localhost:8000/items/api/items/1
+
+
+## Hosted Version
+
+url: https://agile-stream-92374.herokuapp.com
+
+1. On your rest client go to the url https://agile-stream-92374.herokuapp.com/api/user/register to register.You will supply a username, email and password in your form.
+2. Go to https://agile-stream-92374.herokuapp.com/api/login to login with your email and password. After login you will receive an access token which will be used for subsequent requests.
+3. To make subsequent requests to the endpoints on your rest client, go to the url. Then under headers section, you will add the authorization.
+ eg Key: Authorization   
+    Value: Bearer "your_access_token"
+
+## End Points
+
+- show all courier items -(get)  https://agile-stream-92374.herokuapp.com/api/items
+- create new courier item - (post) https://agile-stream-92374.herokuapp.com/api/items. You will need to supply the name, description, weight, distance in your form.
+- update courier item information -(put) https://agile-stream-92374.herokuapp.com/api/items/1
+- show single courier item (get) https://agile-stream-92374.herokuapp.com/api/items/1
+- delete courier item (delete) https://agile-stream-92374.herokuapp.com/api/items/1
