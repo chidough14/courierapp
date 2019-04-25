@@ -33,7 +33,9 @@ Go to localhost:8000
 
 3. To make subsequent requests to the endpoints on your rest client, go to the url. Then under headers section, you will add the authorization.
 
-eg Key: Authorization    Value: Bearer "your_access_token"
+eg 
+Key: Authorization    
+Value: Bearer "your_access_token"
 
 ## End Points
 
