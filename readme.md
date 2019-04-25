@@ -29,7 +29,7 @@ Go to localhost:8000
 
 1. On your rest client go to the url http://localhost:8000/api/user/register to register.
 
-2. Go to http://localhost:8000/login to login. After login you will receive an access token which will be used for subsequent requests.
+2. Go to http://localhost:8000/api/login to login. After login you will receive an access token which will be used for subsequent requests.
 
 3. To make subsequent requests to the endpoints on your rest client, go to the url. Then under headers section, you will add the authorization.
 
@@ -39,12 +39,12 @@ Value: Bearer "your_access_token"
 
 ## End Points
 
-show all courier items -(get)  http://localhost:8000/items
+show all courier items -(get)  http://localhost:8000/api/items
 
-create new courier item - (post) http://localhost:8000/items. You will need to supply the name, description, weight, distance in your form.
+create new courier item - (post) http://localhost:8000/api/items. You will need to supply the name, description, weight, distance in your form.
 
-update courier item information -(put) http://localhost:8000/items/1
+update courier item information -(put) http://localhost:8000/api/items/1
 
-show single courier item (get) http://localhost:8000/items/1
+show single courier item (get) http://localhost:8000/api/items/1
 
-delete courier item (delete) http://localhost:8000/items/1
+delete courier item (delete) http://localhost:8000/items/api/1
